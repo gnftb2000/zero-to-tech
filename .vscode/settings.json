@@ -1,0 +1,32 @@
+{
+    // ── Python 环境（你在 VSCode 界面里选的 conda，别删） ──
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+
+    // ── 候选预览（你机器上已验证能显示：就是那个 rt） ──
+    "editor.suggest.preview": true,
+    "editor.suggest.showInlineDetails": true,
+    "editor.suggest.selectionMode": "always",
+
+    // ── Tab 也能接受补全 ──
+    "editor.tabCompletion": "on",
+
+    // ── 注释/字符串里也弹候选（默认注释里是关的） ──
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "on",
+        "strings": "on"
+    },
+    "editor.suggestOnTriggerCharacters": true,
+
+    // ── Emmet：按 Tab 展开缩写 ──
+    "emmet.triggerExpansionOnTab": true,
+
+    // ── AI 灰字开关（默认就是 true） ──
+    "editor.inlineSuggest.enabled": true,
+
+    // 深色主题默认的灰字只有 34% 不透明度，调亮点
+    "workbench.colorCustomizations": {
+        "editorGhostText.foreground": "#9aa0a6"
+    }
+}

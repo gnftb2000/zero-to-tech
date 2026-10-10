@@ -1,0 +1,43 @@
+{
+    // ── Python 环境（你在 VSCode 界面里选的 conda，别删） ──
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+
+    // ── PyCharm 那种灰色候选预览 ──
+    "editor.suggest.preview": true,
+    "editor.suggest.showInlineDetails": true,
+    "editor.suggest.selectionMode": "always",
+
+    // ── PyCharm 习惯：Tab 也能接受补全（VSCode 默认是 off） ──
+    "editor.tabCompletion": "on",
+
+    // ── 关键：注释和字符串里也弹候选（默认注释里是关的） ──
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "on",
+        "strings": "on"
+    },
+    "editor.suggestOnTriggerCharacters": true,
+
+    // ── 以后装 Copilot / Continue 时的 AI 灰字开关（默认就是 true） ──
+    "editor.inlineSuggest.enabled": true,
+
+    // ── Emmet：按 Tab 之前就能看见缩写会变成什么（灰字预览） ──
+    "emmet.useInlineCompletions": true,
+
+    // 根因：候选列表一弹出来就会把灰字压掉（VSCode 默认行为），
+    // 所以 HTML / CSS 里改成"只走内联补全"——没有列表就没有冲突，灰字必然显示。
+    // 想看列表时按 Ctrl+Space 手动调出来，功能不受影响。
+    "[html]": {
+        "editor.quickSuggestions": { "other": "inline", "comments": "off", "strings": "off" }
+    },
+    "[css]": {
+        "editor.quickSuggestions": { "other": "inline", "comments": "off", "strings": "off" }
+    },
+
+    // VSCode 深色主题默认的灰字只有 34% 不透明度（#ffffff56），太淡；
+    // 换成看得清的灰，顺便也能验证灰字通道到底通不通。
+    "workbench.colorCustomizations": {
+        "editorGhostText.foreground": "#9aa0a6"
+    }
+}
