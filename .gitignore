@@ -1,0 +1,19 @@
+# ── macOS 自动生成的垃圾文件 ──
+.DS_Store
+._*
+
+# ── 编辑器 / IDE ──
+# 你的 VSCode 设置已经放在全局（User/settings.json），项目里不用再存一份
+.vscode/
+*.bak
+*.swp
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# ── 日志 / 临时文件 ──
+*.log
