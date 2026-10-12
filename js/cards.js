@@ -8,4 +8,4 @@ export function initCardsAnim() {
     duration: 700,
     ease: "outBack",
   });
-} 
+}
