@@ -15,5 +15,7 @@ __pycache__/
 venv/
 .env
 
-# ── 日志 / 临时文件 ──
+# ── 日志 / 临时文件 ── 
 *.log
+dist
+node_modules
