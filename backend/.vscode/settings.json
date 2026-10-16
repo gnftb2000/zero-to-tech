@@ -1,0 +1,7 @@
+{
+  // 这个项目固定用 backend/.venv，别让全局设置里的 conda(base) 兜底值盖过来。
+  // 改完需要 ⌘⇧P → Developer: Reload Window 才生效。
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "python-envs.defaultPackageManager": "ms-python.python:pip"
+}
