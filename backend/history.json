@@ -1,0 +1,23 @@
+[
+  {
+    "text": "远看肥鱼大 肥鱼真是大",
+    "score": 0.42,
+    "label": "中性",
+    "pinyin": "yuǎn kàn féi yú dà   féi yú zhēn shì dà",
+    "created_at": "2026-10-20T05:16:18+00:00"
+  },
+  {
+    "text": "远看肥鱼大 肥鱼真是大 真是大肥鱼",
+    "score": 0.41,
+    "label": "中性",
+    "pinyin": "yuǎn kàn féi yú dà   féi yú zhēn shì dà   zhēn shì dà féi yú",
+    "created_at": "2026-10-20T05:16:26+00:00"
+  },
+  {
+    "text": "远看肥鱼大 近看大肥鱼 肥鱼真是大 真是大肥鱼",
+    "score": 0.51,
+    "label": "中性",
+    "pinyin": "yuǎn kàn féi yú dà   jìn kàn dà féi yú   féi yú zhēn shì dà   zhēn shì dà féi yú",
+    "created_at": "2026-10-20T05:16:42+00:00"
+  }
+]
