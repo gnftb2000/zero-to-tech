@@ -21,6 +21,6 @@ export const home = {
 };
 
 export const textLab = {
-  heroTitle: "声音实验室",
+  heroTitle: "情绪实验室",
   heroSubtitle: "情绪和音符，我和你的乐队",
 };
