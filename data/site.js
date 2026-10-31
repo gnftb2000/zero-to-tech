@@ -16,7 +16,7 @@ export const home = {
   },
   identity: {
     motto: "已识乾坤大，尤怜草木青",
-    learning: "零到全栈",
+    learning: "全栈技术",
   },
 };
 
