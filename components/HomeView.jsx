@@ -51,7 +51,7 @@ export default function HomeView() {
 
       <article className="panel panel-full identity-panel card">
         <div className="identity-item">
-          <p className="section-kicker">座右铭</p>
+          <p className="section-kicker">+++</p>
           <p className="identity-value identity-quote">{data.identity.motto}</p>
         </div>
         <div className="identity-item">

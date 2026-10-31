@@ -21,6 +21,6 @@ export const home = {
 };
 
 export const textLab = {
-  heroTitle: "都是措辞的原因",
+  heroTitle: "有关措辞的原因",
   heroSubtitle: "情绪和文字，我和你的",
 };

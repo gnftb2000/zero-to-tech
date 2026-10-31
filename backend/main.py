@@ -44,7 +44,7 @@ profile = {
   "heroSubtitle": "项目，创意，灵感，心得，我的作品",
   "featuredWork": {
     "kicker": "作品",
-    "title": "都是措辞的原因",
+    "title": "措辞占一部分原因",
     "copy": "情绪和文字，语言里的细节",
     "linkLabel": "打开作品",
   },
